@@ -1,0 +1,177 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">JOCOB.</div>
+        <div class="nav_icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="li">
+          <li class="white">HOME</li>
+          <li>ABOUT</li>
+          <li>SERVICES</li>
+          <li>PORTFOLIO</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+      <div class="main-text">
+        <h1>MY NAME IS MOHAMMAD HASHAM</h1>
+        <h4>frontend Devoloper</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
+          provident <br />accusamus laboriosam sint quam eum corrupti eligendi
+          voluptatem voluptas<br />
+          architecto ea quo ab perspiciatis. Debitis blanditiis nisi mollitia.
+        </p>
+        <button class="button1">Hire me</button>
+        <button class="button2">Lets Talk</button>
+      </div>
+    </header>
+    <footer>
+      <div>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </footer>
+  </body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+</head>
+<body>
+    hello
+</body>
+</html> -->
+
+
+
+<!-- kkkkkkkkkkkkkk -->
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-image: url(./assets/images/home.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .li {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: white;
+  }
+  .logo {
+    color: white;
+  }
+  .white {
+    color: rgb(38, 183, 240);
+  }
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    color: white;
+    font-family: sans-serif;
+  }
+  h4 {
+    position: absolute;
+    top: 35%;
+    left: 11%;
+    color: rgb(38, 183, 240);
+    font-size: 25px;
+  }
+  p {
+    position: absolute;
+    top: 42%;
+    left: 11%;
+    color: white;
+  }
+  .button1 {
+    position: absolute;
+    top: 52%;
+    left: 11%;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(38, 183, 240);
+  }
+  .button2 {
+    position: absolute;
+    top: 52%;
+    left: 21%;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(38, 183, 240);
+  }
+  .fa-facebook-f {
+    color: rgb(38, 183, 240);
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+  }
+  .fa-twitter {
+    color: rgb(38, 183, 240);
+    position: absolute;
+    bottom: 10%;
+    left: 9%;
+  }
+  .fa-linkedin {
+    color: rgb(38, 183, 240);
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+  }
+  .icon {
+    color: red;
+  }
+  .fa-solid {
+    display: none;
+  }
+  @media (max-width: 771px) {
+    .main-text {
+      position: absolute;
+      top: 12%;
+      left: 21%;
+    }
+    h4 {
+      margin-top: 38px;
+    }
+  }
+  @media (max-width: 600px) {
+    .li {
+      display: none;
+    }
+    .icon {
+      display: block;
+    }
+  } */
+  

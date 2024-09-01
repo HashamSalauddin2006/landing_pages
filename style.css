@@ -1,90 +1,53 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url(./assets/images/home.jpg);
-    width: 100%;
-    width: 100%;
-    background-size: cover;
+
+body {
+  box-sizing: border-box;
 }
-.nav{
+
+/* nav bar style */
+.nav-bar {
+  padding: 10px 40px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-links ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+
+.nav-bar-links ul li a {
+  text-decoration: none;
+  color: purple;
+  font-size: 1.225rem;
+}
+
+.nav-humber-icon {
+  display: none;
+
+}
+
+/* mdeia query on 600px width */
+
+@media (max-width: 600px) {
+   .nav-bar{
+    padding: 10px;
+   }
+   .nav-serch{
+    display: none;
+   } 
+  .nav-bar-links {
+    display: none;
+  }
+  .nav-humber-icon {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 15px;
-}
-.li {
-    display: flex;
-    list-style: none;
-    gap: 3rem;
-    color: white;
-
-}
-.logo{
-    color: white;
-}
-.white{
-    color:rgb(38, 183, 240);
-}
-h1{
-    position: absolute;
-    top: 30%;
-    left: 11%;
-    color: white;
-    font-family: sans-serif;
-}
-h4{
-    position: absolute;
-    top: 35%;
-    left: 11%;
-    color:rgb(38, 183, 240);
-    font-size: 25px
-
-}
-p{
-    position: absolute;
-    top: 42%;
-    left: 11%;
-    color: white;
-}
-.button1{
-    position: absolute;
-    top: 52%;
-    left: 11%;
-    padding: 16px 24px;
-    border-radius: 10px ;
-    border: none;
-    background-color: rgb(38, 183, 240);
-
-}
-.button2{
-    position: absolute;
-    top: 52%;
-    left: 21%;
-    padding: 16px 24px;
-    border-radius: 10px ;
-    border: none;
-    background-color: black;
-    color: white;
-    border: 1px solid rgb(38, 183, 240);
-}
-.fa-facebook-f{
-    color:rgb(38, 183, 240);;
-    position: absolute;
-    bottom: 10%;
-    left: 5%;
-}
-.fa-twitter{
-    color:rgb(38, 183, 240);;
-    position: absolute;
-    bottom: 10%;
-    left: 9%;
-}
-.fa-linkedin{
-    color:rgb(38, 183, 240);;
-    position: absolute;
-    bottom: 10%;
-    left: 13%;
-
+    gap: 6px;
+  }
 }
